@@ -25,6 +25,11 @@ or
 ```sh
 npm install @nghinv/react-native-color-picker
 ```
+- peerDependencies
+
+```sh
+yarn add react-native-gesture-handler react-native-reanimated @nghinv/react-native-animated react-native-linear-gradient react-native-svg
+```
 
 ## Usage
 

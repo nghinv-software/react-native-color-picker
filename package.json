@@ -1,6 +1,6 @@
 {
   "name": "@nghinv/react-native-color-picker",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "React Native color picker Library",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
@@ -69,15 +69,15 @@
   },
   "peerDependencies": {
     "react": "*",
-    "react-native": "^0.64.2"
-  },
-  "dependencies": {
-    "react-fast-compare": "*",
+    "react-native": "^0.64.2",
     "@nghinv/react-native-animated": ">=0.1.1",
     "react-native-gesture-handler": "*",
     "react-native-reanimated": ">=2.0.0-rc.0",
     "react-native-linear-gradient": "*",
     "react-native-svg": "*"
+  },
+  "dependencies": {
+    "react-fast-compare": "*"
   },
   "jest": {
     "preset": "react-native",
