@@ -1,6 +1,6 @@
 {
   "name": "@nghinv/react-native-color-picker",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "React Native color picker Library",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
@@ -41,9 +41,7 @@
   },
   "homepage": "https://github.com/nghinv-software/react-native-color-picker#readme",
   "publishConfig": {
-    "access": "public",
-    "cache": "~/.npm",
-    "registry": "https://npm.pkg.github.com"
+    "access": "public"
   },
   "devDependencies": {
     "@commitlint/config-conventional": "^11.0.0",
@@ -63,6 +61,10 @@
     "prettier": "^2.0.5",
     "react": "16.13.1",
     "react-native": "0.64.2",
+    "react-native-gesture-handler": "^1.10.3",
+    "react-native-reanimated": "^2.2.0",
+    "react-native-linear-gradient": "2.5.6",
+    "react-native-svg": "12.1.1",
     "react-native-builder-bob": "^0.18.0",
     "release-it": "^14.10.0",
     "typescript": "^4.0.8"
@@ -70,13 +72,13 @@
   "peerDependencies": {
     "react": "*",
     "react-native": "^0.64.2",
-    "@nghinv/react-native-animated": ">=0.1.1",
     "react-native-gesture-handler": "*",
     "react-native-reanimated": ">=2.0.0-rc.0",
     "react-native-linear-gradient": "*",
     "react-native-svg": "*"
   },
   "dependencies": {
+    "@nghinv/react-native-animated": ">=0.2.0",
     "react-fast-compare": "*"
   },
   "jest": {
